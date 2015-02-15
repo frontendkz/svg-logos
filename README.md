@@ -1,1 +1,1 @@
-# svg-logos
+# SVG logos of Kazakhstani companies
