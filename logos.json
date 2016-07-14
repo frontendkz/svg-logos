@@ -1,0 +1,32 @@
+[
+	{
+		"name":"Aktau city",
+		"file":"cities/aktau.svg",
+		"category":"cities"
+	},	
+	{
+		"name":"Almaty city",
+		"file":"cities/almaty.svg",
+		"category":"cities"
+	},	
+	{
+		"name":"Astana city",
+		"file":"cities/astana.svg",
+		"category":"cities"
+	},
+	{
+		"name":"Oral city",
+		"file":"cities/oral.svg",
+		"category":"cities"
+	},
+	{
+		"name":"Pavlodar city",
+		"file":"cities/pavlodar.svg",
+		"category":"cities"
+	},
+	{
+		"name":"Petropavl city",
+		"file":"cities/petropavl.svg",
+		"category":"cities"
+	}
+]

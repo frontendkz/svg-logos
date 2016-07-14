@@ -1,0 +1,12 @@
+.logo-image{
+	height: 200px;
+	text-align: center;
+	padding: 10px 0;
+}
+.logo-image img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.jumbotron-logos{
+	margin-top: 20px;
+}

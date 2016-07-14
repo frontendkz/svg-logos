@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="svgLogos">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-logos">
+            <h1>Kazakhstan Companies SVG-logos</h1>
+            <p>Here you can browse and download logos of the Kazakhstan companies</p>
+        </div>
+        <section ng-controller="ListController">
+            <div class="row">
+                <div class="col-md-3" ng-repeat="logo in logos">
+                    <div class="thumbnail">
+                        <div class="logo-image">
+                            <img ng-src="catalog/{{logo.file}}" alt="{{logo.name}}">
+                        </div>
+                        <div class="caption">
+                            <h3>{{logo.name}}</h3>
+                            <p>{{logo.category}}</p>
+                            <p><a href="catalog/{{logo.file}}" target="_blank" class="btn btn-primary" role="button">Download</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootswatch/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
