@@ -1,8 +1,8 @@
-# SVG логотипы казахстанских компании
+#  SVG logos of Kazakhstani companies
 
-Логотипы собраны из открытых источников и для ознакомительных целей.
+A collection of svg vector logos.
 
-Если хотите использовать, то советуем обращаться в соответвующие компании.
+*All logos appearing on the site are the property of their respective owners.*
 
 # Contribution
 
