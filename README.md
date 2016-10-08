@@ -6,7 +6,7 @@ A collection of svg vector logos.
 
 # Contribution
 
-[How to contributing](Contributing.md).
+[How to contributing](CONTRIBUTING.md).
 
 # License
 
