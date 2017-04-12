@@ -1,0 +1,85 @@
+{
+  "name": "frontendkz/svg-logos",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "gh-pages",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/frontendkz/svg-logos",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "svg-logos",
+      "subhead": "SVG logos of Kazakhstani companies",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "svg-logos: SVG logos of Kazakhstani companies",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "frontendkz",
+          "repo": "svg-logos"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>SVG logos of Kazakhstani companies</h1>\n<p>A collection of svg vector logos.</p>\n<p><em>All logos appearing on the site are the property of their respective owners.</em></p>\n<h1>Contribution</h1>\n<p><a href=\"CONTRIBUTING.md\">How to contributing</a>.</p>\n<h1>License</h1>\n<p><a href=\"LICENSE.md\">MIT</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/frontendkz/svg-logos",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/frontendkz",
+          "text": "frontendkz"
+        }
+      ]
+    }
+  ]
+}
