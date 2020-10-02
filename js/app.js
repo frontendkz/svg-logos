@@ -1,4 +1,4 @@
-fetch('./logos.json')
+fetch('../logos.json')
     .then(response => response.json())
     .then(data => {
         createApp(data);
