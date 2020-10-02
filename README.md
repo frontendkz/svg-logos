@@ -1,4 +1,5 @@
 #  SVG logos of Kazakhstani companies
+[Demo](https://frontendkz.github.io/svg-logos/)
 
 A collection of svg vector logos.
 
