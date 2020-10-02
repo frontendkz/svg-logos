@@ -1,174 +1,174 @@
 [
     {
-        "category": "cities", 
-        "name": "aktau.svg"
-    }, 
+        "name": "aktau.svg",
+        "category": "cities"
+    },
     {
-        "category": "cities", 
-        "name": "almaty.svg"
-    }, 
+        "name": "almaty.svg",
+        "category": "cities"
+    },
     {
-        "category": "cities", 
-        "name": "astana.svg"
-    }, 
+        "name": "astana.svg",
+        "category": "cities"
+    },
     {
-        "category": "cities", 
-        "name": "oral.svg"
-    }, 
+        "name": "oral.svg",
+        "category": "cities"
+    },
     {
-        "category": "cities", 
-        "name": "pavlodar.svg"
-    }, 
+        "name": "pavlodar.svg",
+        "category": "cities"
+    },
     {
-        "category": "cities", 
-        "name": "petropavl.svg"
-    }, 
+        "name": "petropavl.svg",
+        "category": "cities"
+    },
     {
-        "category": "communication", 
-        "name": "kazakhtelecom.svg"
-    }, 
+        "name": "kazakhtelecom.svg",
+        "category": "communication"
+    },
     {
-        "category": "communication", 
-        "name": "kazpost-kaz.svg"
-    }, 
+        "name": "kazpost-kaz.svg",
+        "category": "communication"
+    },
     {
-        "category": "communication", 
-        "name": "kazpost.svg"
-    }, 
+        "name": "kazpost.svg",
+        "category": "communication"
+    },
     {
-        "category": "communication", 
-        "name": "kcell.svg"
-    }, 
+        "name": "kcell.svg",
+        "category": "communication"
+    },
     {
-        "category": "education", 
-        "name": "aipet.svg"
-    }, 
+        "name": "aipet.svg",
+        "category": "education"
+    },
     {
-        "category": "education", 
-        "name": "dku.svg"
-    }, 
+        "name": "dku.svg",
+        "category": "education"
+    },
     {
-        "category": "education", 
-        "name": "sdu.svg"
-    }, 
+        "name": "sdu.svg",
+        "category": "education"
+    },
     {
-        "category": "education", 
-        "name": "uib.svg"
-    }, 
+        "name": "uib.svg",
+        "category": "education"
+    },
     {
-        "category": "finance", 
-        "name": "centercredit.svg"
-    }, 
+        "name": "centercredit.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "epay.svg"
-    }, 
+        "name": "epay.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "eurasian_bank.svg"
-    }, 
+        "name": "eurasian_bank.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "halyk_bank.svg"
-    }, 
+        "name": "halyk_bank.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "kase.svg"
-    }, 
+        "name": "jysan_bank.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "kazkom.svg"
-    }, 
+        "name": "kase.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "sberbank.svg"
-    }, 
+        "name": "kazkom.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "tsesnabank.svg"
-    }, 
+        "name": "sberbank.svg",
+        "category": "finance"
+    },
     {
-        "category": "finance", 
-        "name": "vtb.svg"
-    }, 
+        "name": "tsesnabank.svg",
+        "category": "finance"
+    },
     {
-        "category": "government", 
-        "name": "egov.svg"
-    }, 
+        "name": "vtb.svg",
+        "category": "finance"
+    },
     {
-        "category": "government", 
-        "name": "samruk_kazyna.svg"
-    }, 
+        "name": "egov.svg",
+        "category": "government"
+    },
     {
-        "category": "industry", 
-        "name": "kazakhmys.svg"
-    }, 
+        "name": "samruk_kazyna.svg",
+        "category": "government"
+    },
     {
-        "category": "industry", 
-        "name": "kazmunaygas.svg"
-    }, 
+        "name": "kazakhmys.svg",
+        "category": "industry"
+    },
     {
-        "category": "industry", 
-        "name": "kaztransoil.svg"
-    }, 
+        "name": "kazmunaygas.svg",
+        "category": "industry"
+    },
     {
-        "category": "industry", 
-        "name": "kegoc.svg"
-    }, 
+        "name": "kaztransoil.svg",
+        "category": "industry"
+    },
     {
-        "category": "industry", 
-        "name": "samryk_energy.svg"
-    }, 
+        "name": "kegoc.svg",
+        "category": "industry"
+    },
     {
-        "category": "industry", 
-        "name": "sat&co.svg"
-    }, 
+        "name": "samryk_energy.svg",
+        "category": "industry"
+    },
     {
-        "category": "industry", 
-        "name": "tengizchevroil.svg"
-    }, 
+        "name": "sat&co.svg",
+        "category": "industry"
+    },
     {
-        "category": "sports", 
-        "name": "astana_proteam.svg"
-    }, 
+        "name": "tengizchevroil.svg",
+        "category": "industry"
+    },
     {
-        "category": "sports", 
-        "name": "football_federation_of_kazakhstan.svg"
-    }, 
+        "name": "football_federation_of_kazakhstan.svg",
+        "category": "sports"
+    },
     {
-        "category": "technology", 
-        "name": "hh.kz.svg"
-    }, 
+        "name": "hh.kz.svg",
+        "category": "technology"
+    },
     {
-        "category": "technology", 
-        "name": "hipo.svg"
-    }, 
+        "name": "hipo.svg",
+        "category": "technology"
+    },
     {
-        "category": "technology", 
-        "name": "ibecsystems.svg"
-    }, 
+        "name": "ibec_systems.svg",
+        "category": "technology"
+    },
     {
-        "category": "technology", 
-        "name": "ps.kz.svg"
-    }, 
+        "name": "ps.kz.svg",
+        "category": "technology"
+    },
     {
-        "category": "trade", 
-        "name": "logycom.svg"
-    }, 
+        "name": "logycom.svg",
+        "category": "trade"
+    },
     {
-        "category": "trade", 
-        "name": "sulpak.svg"
-    }, 
+        "name": "sulpak.svg",
+        "category": "trade"
+    },
     {
-        "category": "travel", 
-        "name": "air_astana.svg"
-    }, 
+        "name": "air_astana.svg",
+        "category": "travel"
+    },
     {
-        "category": "travel", 
-        "name": "kzht.svg"
-    }, 
+        "name": "kazakhstan_temir_zholy.svg",
+        "category": "travel"
+    },
     {
-        "category": "travel", 
-        "name": "scat.svg"
+        "name": "scat.svg",
+        "category": "travel"
     }
 ]

@@ -1,4 +1,5 @@
 # SVG логотипы казахстанских компании
+[Demo](https://frontendkz.github.io/svg-logos/)
 
 Логотипы собраны из открытых источников и для ознакомительных целей.
 
@@ -6,7 +7,7 @@
 
 # Contribution
 
-[How to contributing](Contributing.md).
+[How to contribute](Contributing.md).
 
 # License
 

@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="svgLogos">
+<html lang="en"
+      ng-app="svgLogos">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>SVG-logos</title>
+        <link rel="stylesheet"
+              href="css/bootstrap.min.css" />
+        <link rel="stylesheet"
+              href="css/styles.css" />
+    </head>
 
-<body>
-    <div class="container">
-        <div class="jumbotron jumbotron-logos">
-            <h1>Kazakhstan Companies SVG-logos</h1>
-            <p>Here you can browse and download logos of the Kazakhstan companies</p>
-        </div>
-        <section ng-controller="ListController">
-            <div class="row">
-                <div class="col-md-3" ng-repeat="logo in logos">
-                    <div class="thumbnail">
-                        <div class="logo-image">
-                            <img ng-src="catalog/{{logo.file}}" alt="{{logo.name}}">
+    <body>
+        <section id="app">
+            <header class="bg-dark text-white p-4">
+                <section class="container-fluid">
+                    <h1>Kazakhstan Companies SVG-logos</h1>
+                    <p class="text-danger">Here you can browse and download logos of the Kazakhstan companies</p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <select @change="onCategoryChange($event)"
+                                    class="form-control"
+                                    v-model="category"
+                                    class="custom-select">
+                                <option v-for="category in categories">{{category}}</option>
+                            </select>
                         </div>
-                        <div class="caption">
-                            <h3>{{logo.name}}</h3>
-                            <p>{{logo.category}}</p>
-                            <p><a href="catalog/{{logo.file}}" target="_blank" class="btn btn-primary" role="button">Download</a></p>
+                        <div class="col-md-8">
+                            <input type="text"
+                                   class="form-control"
+                                   v-model="search"
+                                   placeholder="Search logos..." />
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <section class="container-fluid">
+                <div v-if="filteredList.length == 0"
+                     class="mt-3 alert alert-warning">No items found...</div>
+                <div class="list row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2"
+                         v-for="item in filteredList">
+                        <div class="logo">
+                            <div class="logo__img">
+                                <img class="img-fluid"
+                                     v-bind:src="item.src"
+                                     v-bind:alt="item.name">
+                            </div>
+                            <h4 class="logo__title mb-4">{{item.name}}</h4>
+                            <div class="logo__footer">
+                                <div class="logo__categories">
+                                    <a v-bind:href="item.category"
+                                       class="text-muted">{{item.category}}</a>
+                                </div>
+                                <a v-bind:href="item.src"
+                                   download
+                                   class="mt-3 btn btn-primary">Download</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
-    </div>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootswatch/js/bootstrap.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="js/app.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="js/app.js"></script>
+    </body>
 
 </html>
