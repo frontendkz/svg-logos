@@ -1,12 +1,37 @@
-.logo-image{
-	height: 200px;
-	text-align: center;
-	padding: 10px 0;
+.list {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
-.logo-image img{
-	max-height: 100%;
-	max-width: 100%;
+
+.logo {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
-.jumbotron-logos{
-	margin-top: 20px;
+
+.logo__img {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo__title {
+  margin-bottom: 2rem;
+}
+
+.logo__footer {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logo:hover .logo__footer {
+  opacity: 1;
 }

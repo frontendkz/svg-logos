@@ -6,7 +6,7 @@
 
 # Contribution
 
-[How to contributing](Contributing.md).
+[How to contribute](Contributing.md).
 
 # License
 
